@@ -1,0 +1,79 @@
+/* === استيراد الخطوط === */
+@font-face {
+    font-family: 'NeoFont';
+    src: url('https://cdn.jsdelivr.net/gh/Modareb/math-boy@main/fonts/neo.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/Modareb/math-boy@main/fonts/neo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* === تنسيق الخطوط العامة === */
+body {
+    font-family: 'NeoFont', Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* === العناوين === */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'NeoFont', sans-serif;
+    font-weight: bold;
+    color: #222;
+}
+
+h1 { font-size: 28px; }
+h2 { font-size: 24px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 14px; }
+
+/* === الروابط === */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* === الأزرار === */
+button {
+    font-family: 'NeoFont', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* === تحسين النصوص === */
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* === دعم الوضع الليلي === */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #ddd;
+    }
+    a { color: #66b2ff; }
+    a:hover { color: #3399ff; }
+}
