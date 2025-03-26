@@ -1,8 +1,8 @@
 /* === استيراد الخطوط === */
 @font-face {
     font-family: 'NeoFont';
-    src: url('https://cdn.jsdelivr.net/gh/Modareb/math-boy@main/fonts/neo.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/Modareb/math-boy@main/fonts/neo.woff') format('woff');
+    src: url('https://raw.githubusercontent.com/hilal1983/meandaiblog/main/fonts/neo.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/hilal1983/meandaiblog/main/fonts/neo.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
